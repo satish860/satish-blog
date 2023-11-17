@@ -16,41 +16,25 @@ import "cal-sans";
         font-family: "Cal Sans";
       }
 
-      /* usage samples with adjusted letter spacings */
-      h1 {
-        font-size: 56px;
-      }
-      h2 {
-        font-size: 40px;
-        letter-spacing: 0.01em;
-      }
-      h3 {
-        font-size: 36px;
-        letter-spacing: 0.015em;
-      }
-      h4 {
-        font-size: 28px;
-        letter-spacing: 0.02em;
-      }
-      h5 {
-        font-size: 20px;
-        letter-spacing: 0.03em;
-      }
-      h6 {
-        font-size: 16px;
-        letter-spacing: 0.04em;
-      }
-      .quote {
-        font-size: 24px;
-        letter-spacing: 0.02em;
-      }
-      .smaller_cal_sans {
-        font-size: 18px;
-        letter-spacing: 0.045em;
-      }
+      
     </style>
   </head>
   <body>
-    <h1>Astro</h1>
+    <header class="bg-black text-white px-4 py-2">
+		<!-- Brand Name -->
+		<nav class="flex justify-between items-center">
+		  <h1 class="text-4xl font-bold">
+			<a href="/" class="hover:text-gray-300">Satish</a>
+		  </h1>
+		  <!-- Navigation Links -->
+		  <ul class="flex gap-8 items-center">
+			<li><a href="/" class="hover:border-b-2 hover:border-white py-2">Home</a></li>
+			<li><a href="/about" class="hover:border-b-2 hover:border-white py-2">About</a></li>
+			<li><a href="/projects" class="hover:border-b-2 hover:border-white py-2">Projects</a></li>
+			<li><a href="/contact" class="hover:border-b-2 hover:border-white py-2">Contact</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  
   </body>
 </html>
